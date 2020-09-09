@@ -9,7 +9,7 @@ class Circle {
   } 
   
   set diameter(newDiameter) { 
-    this.radius = this.diameter / 2(newDiameter); 
+    this.radius = diameter / 2
   } 
   
   get circumference() { 
