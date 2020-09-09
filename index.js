@@ -9,6 +9,13 @@ class Circle {
   } 
   
   set diameter(newDiameter) { 
-    this.radius = this.diameter / 2(newdiameter); 
+    this.radius = this.diameter / 2(newDiameter); 
   } 
+  
+  get circumference(newCircumference) { 
+    return this.diameter * Math.PI; 
+  } 
+  
+  set circumference() { 
+    this.diameter = this.circumference / Math.PI(newCircumference)
 } 
